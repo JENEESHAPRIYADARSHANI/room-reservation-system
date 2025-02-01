@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ovinray Beach Resort & Spa</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/Untitled-4.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet" />
+    <style>
+      p.ex1 {
+        margin-right: 180px;
+        margin-left: 180px;
+      }
+
+      td {
+        vertical-align: top;
+        padding: 5px;
+      }
+
+      .button {
+        border: none;
+        color: gray;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      .button1 {
+        background-color: #f8f7f7;
+      }
+    </style>
+  </head>
+
+  <body>
+    <img
+      src="images/bookcover.jpg"
+      alt=""
+      width="100%"
+      height="100%"
+      class="img-fluid"
+    />
+    <br /><br />
+    <div class="container">
+      <div class="navbar navbar-expand-lg navbar-light bg-dark">
+        <table style="color: white" align="center">
+          <tr>
+            <td>
+              <a href="home.html"
+                ><img
+                  src="images/logo.png"
+                  alt=""
+                  width="800"
+                  height="168"
+                  class="img-fluid"
+              /></a>
+            </td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <br />
+      <p
+        align="justify"
+        style="
+          font-size: 22px;
+          font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia,
+            'serif';
+        "
+        class="text-justify"
+      >
+        Located in short distance from the exit of southern express way, our
+        property is easily accessible from Colombo and it is just minutes away
+        from Mathara – the capital city of the southern province. Furthermore,
+        our property is also located in proximity to a variety of well-renowned
+        travel destinations on the southern coast.
+      </p>
+      <div class="container">
+        <br />
+        <table>
+          <tr>
+            <td>
+              <img
+                src="images/WhatsApp Image 2023-07-29 at 15.56.21.jpg"
+                width="70"
+                class="img-fluid"
+              />
+            </td>
+            <td>
+              <h5>CHECK-IN</h5>
+              <p>2.00 PM</p>
+            </td>
+            <td>
+              <h5>CHECK-OUT</h5>
+              <p>12.00 PM</p>
+            </td>
+            <td><img src="images/ck.jpg" width="70" class="img-fluid" /></td>
+            <td>
+              <h5>20+</h5>
+              <p>ROOMS</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="container">
+        <h2>Book Your Stay</h2>
+        <form id="bookingForm">
+          <div class="form-group">
+            <label for="title">Title:</label>
+            <select class="form-control" id="title" name="title" required>
+              <option value="Mr.">Mr.</option>
+              <option value="Ms.">Ms.</option>
+			  <option value="Ms.">Mrs.</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              name="name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="phone"
+              name="phone"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="check-in">Check-In:</label>
+            <input
+              type="date"
+              class="form-control"
+              id="check-in"
+              name="check-in"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="check-out">Check-Out:</label>
+            <input
+              type="date"
+              class="form-control"
+              id="check-out"
+              name="check-out"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="roomtype">Room Type:</label>
+            <select class="form-control" id="roomtype" name="roomtype" required>
+              <option value="Deluxe">Deluxe</option>
+              <option value="Standard">Standard</option>
+              <option value="Normal">Normal</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Book Now</button>
+        </form>
+      </div>
+
+      <br />
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <ul>
+                <br /><br /><br />
+                <li>
+                  <a href="https://maps.app.goo.gl/PAVYUwiJBuWot9pY6?g_st=ic"
+                    >Ovinray Beach Resort & Spa, <br />
+                    87 Beach Road Madiha, <br />Matara, <br />Southern Province,
+                    <br />
+                    Sri Lanka.</a
+                  >
+                </li>
+                <li><a href="tel:+94112544566">GENERAL: +9411 254 4566</a></li>
+                <li>
+                  <a href="tel:+94742544562">RESERVATION: +9474 254 4562</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <ul>
+                <br /><br /><br />
+                <li><a href="Dining.html">DINING</a></li>
+                <li><a href="spa.html">SPA</a></li>
+                <li>
+                  <a href="Wedding & conferences.html">WEDDING & CONFERENCES</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <ul>
+                <br /><br /><br />
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="Gallery.html">GALLERY</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <br /><br /><br />
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="https://www.facebook.com/"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="https://www.twitter.com/"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="https://www.instagram.com/"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <br /><br />
+          <center>
+            <p style="color: darkgray">
+              © 2023 Ovinray Resorts & Spa. All Rights Reserved
+            </p>
+          </center>
+        </div>
+      </footer>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $("#bookingForm").on("submit", function (e) {
+          e.preventDefault();
+
+          $.ajax({
+            url: "adddata.php",
+            type: "POST",
+            data: $(this).serialize(),
+            success: function (response) {
+              Swal.fire({
+                icon: response.includes("successful") ? "success" : "error",
+                title: response.includes("successful") ? "Success" : "Error",
+                text: response,
+                timer: 3000,
+                showConfirmButton: false,
+              });
+            },
+            error: function () {
+              Swal.fire({
+                icon: "error",
+                title: "Error",
+                text: "An error occurred while booking. Please try again later.",
+              });
+            },
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
